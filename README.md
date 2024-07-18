@@ -3,7 +3,6 @@ This application ensures efficient management of car service orders, user authen
 
 # Application Preview
 
-<div style="text-align: center;">
   <p float="left">
     <img src="https://github.com/user-attachments/assets/7318bf03-6df2-49a7-9cdc-32ce223859b5" width="50%" />
     <img src="https://github.com/user-attachments/assets/bc928e8a-2b92-4786-9d26-ddd5378a0d92" width="50%" />
@@ -15,4 +14,3 @@ This application ensures efficient management of car service orders, user authen
   </p>
 
 <img src="https://github.com/user-attachments/assets/29a3a674-32bb-47b8-aba4-b62260c62157" width=50% />
-</div>
