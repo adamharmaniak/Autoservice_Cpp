@@ -1,0 +1,7 @@
+Peter Novák,Volkswagen,Passat,2000
+AutoShop s.r.o.,Volkswagen,Arteon,2022
+Eva Horváthová,Renault,Clio,2015
+TechService a.s.,Škoda,Scala,2000
+Mária Černá,Ford,Focus,2013
+BB Auto s.r.o.,Toyota,Yaris,2019
+Ján Kováč,Hyundai,i30,2016

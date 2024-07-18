@@ -1,0 +1,11 @@
+Peter Novák,osoba,peter12345
+AutoShop s.r.o.,firma,44048562,true,shop123
+Eva Horváthová,osoba,pes321
+TechService a.s.,firma,35624583,false,macka123
+Mária Černá,osoba,biela456
+BB Auto s.r.o.,firma,24658972,true,aaa123
+Ján Kováč,osoba,brbrbr123
+Linda Mrkvicka,administrator,radiator123
+Jozef Krepý,technik,kon000
+Ján Hnedý,technik,koza000
+Mária Kurva,pica123

@@ -1,0 +1,7 @@
+Volkswagen,Polo,Golf,Passat,Arteon,Tiguan,Touareg
+Škoda,Fabia,Felicia,Rapid,Scala,Octavia,Superb,Kodiaq,Karoq,Kamiq
+Renault,Clio,Megane,Kadjar,Captur,Scenic,Laguna,Espace,Twingo,Zoe
+Peugeot,208,308,508,2008,3008,5008,Rifter,Partner,206
+Ford,Fiesta,Focus,Mondeo,EcoSport,Kuga,Edge,Mustang,Galaxy,S-Max
+Toyota,Yaris,Corolla,Camry,RAV4,Highlander,Prius,Auris,Avensis,C-HR
+Hyundai,i10,i20,i30,Kona,Tucson,Santa Fe,Elantra,Sonata,Veloster

@@ -1,0 +1,10 @@
+Výmena oleja,60,48
+Výmena pneumatík,40,32
+Geometria kolies,70,56
+Klimatizácia: doplnenie chladiva,50,40
+Výmena akumulátora,20,16
+Kontrola a výmena brzdových platničiek,80,64
+Generálna kontrola vozidla,100,80
+Kontrola a výmena zapalovacích sviečok,40,32
+Diagnostika motora,50,40
+Výmena vzduchového filtra,30,24
