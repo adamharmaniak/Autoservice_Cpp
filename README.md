@@ -1,5 +1,5 @@
 # Autoservice_C++
 This application ensures efficient management of car service orders, user authentication, and detailed tracking of services and users.
 
-![Snímka obrazovky (326)](https://github.com/user-attachments/assets/7318bf03-6df2-49a7-9cdc-32ce223859b5) ![Snímka obrazovky (327)](https://github.com/user-attachments/assets/bc928e8a-2b92-4786-9d26-ddd5378a0d92)
+<p float="left">![Snímka obrazovky (326)](https://github.com/user-attachments/assets/7318bf03-6df2-49a7-9cdc-32ce223859b5) ![Snímka obrazovky (327)](https://github.com/user-attachments/assets/bc928e8a-2b92-4786-9d26-ddd5378a0d92)</p>
 
