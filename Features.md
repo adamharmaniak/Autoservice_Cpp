@@ -16,9 +16,9 @@ This application is an object-oriented program with a user interface designed to
 - *Car Service Worker:* Job position (technician or administrator)
 
 ## User Database:
-- **Stored in files**  
-- **Loaded automatically at program startup**  
-- **Main Functionalities**  
+- Stored in files
+- Loaded automatically at program startup
+- Main Functionalities
 
 ## Service Management:
 - Services and their prices are loaded from a file
