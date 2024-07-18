@@ -1,0 +1,1190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AutoservisClass</class>
+ <widget class="QMainWindow" name="AutoservisClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>924</width>
+    <height>587</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Autoservis</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>20</y>
+      <width>661</width>
+      <height>461</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>5</number>
+    </property>
+    <widget class="QWidget" name="page_home">
+     <widget class="QWidget" name="verticalLayoutWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>0</y>
+        <width>261</width>
+        <height>451</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QToolButton" name="toolButton_logo">
+         <property name="maximumSize">
+          <size>
+           <width>250</width>
+           <height>250</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: transparent;
+border: none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>../truck_and_car_service_logo.png</normaloff>../truck_and_car_service_logo.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>300</width>
+           <height>258</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QToolButton" name="toolButton_car">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>250</width>
+           <height>250</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: transparent;
+border: none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>../car_picture.png</normaloff>../car_picture.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>250</width>
+           <height>250</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_editCarRecord">
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>9</y>
+        <width>251</width>
+        <height>441</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QWidget" name="horizontalLayoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>252</width>
+         <height>451</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <widget class="QToolButton" name="toolButton_car_2">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>250</width>
+            <height>250</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: transparent;
+border: none;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>../car_picture.png</normaloff>../car_picture.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>400</width>
+            <height>400</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>9</y>
+        <width>401</width>
+        <height>461</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 700 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 51, 51);</string>
+      </property>
+      <property name="title">
+       <string>Záznam o aute</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <widget class="QWidget" name="verticalLayoutWidget_3">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>30</y>
+         <width>241</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_3">
+        <item>
+         <widget class="QTableView" name="tableView_CarRecord">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);
+font: 700 11pt &quot;Calibri&quot;;</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="verticalLayoutWidget_8">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>149</y>
+         <width>241</width>
+         <height>201</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_8">
+        <item>
+         <widget class="QComboBox" name="comboBox_Brands">
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 51, 51);
+color: rgb(0, 0, 0);
+font: 11pt &quot;Segoe UI&quot;;</string>
+          </property>
+          <property name="currentIndex">
+           <number>-1</number>
+          </property>
+          <item>
+           <property name="text">
+            <string>Volkswagen</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Škoda</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Renault</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Peugeot</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Ford</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Toyota</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Hyundai</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="comboBox_Models">
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 51, 51);
+color: rgb(0, 0, 0);
+font: 11pt &quot;Segoe UI&quot;;</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="comboBox_Years">
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 51, 51);
+color: rgb(0, 0, 0);
+font: 11pt &quot;Segoe UI&quot;;</string>
+          </property>
+          <property name="currentIndex">
+           <number>-1</number>
+          </property>
+          <item>
+           <property name="text">
+            <string>1994</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>1995</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>1996</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>1997</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>1998</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>1999</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>2000</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>2001</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>2002</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>2003</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>2004</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>2005</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>2006</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>2007</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>2008</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>2009</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>2010</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>2011</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>2012</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>2013</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>2014</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>2015</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>2016</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>2017</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>2018</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>2019</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>2020</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>2021</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>2022</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>2023</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>2024</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_ChangeRecord">
+          <property name="maximumSize">
+           <size>
+            <width>150</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 700 11pt &quot;Calibri&quot;;
+color: rgb(255, 255, 255)</string>
+          </property>
+          <property name="text">
+           <string>Upraviť záznam</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_bookService">
+     <widget class="QGroupBox" name="groupBox_4">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>20</y>
+        <width>631</width>
+        <height>431</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <widget class="QWidget" name="verticalLayoutWidget_4">
+       <property name="geometry">
+        <rect>
+         <x>-20</x>
+         <y>-10</y>
+         <width>651</width>
+         <height>321</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_4">
+        <property name="topMargin">
+         <number>10</number>
+        </property>
+        <item>
+         <widget class="QLabel" name="label_3">
+          <property name="text">
+           <string>Zoznam služieb</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTableView" name="tableView_Services">
+          <property name="selectionMode">
+           <enum>QAbstractItemView::ExtendedSelection</enum>
+          </property>
+          <property name="selectionBehavior">
+           <enum>QAbstractItemView::SelectRows</enum>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="horizontalLayoutWidget_3">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>310</y>
+         <width>631</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_4">
+        <item>
+         <widget class="QToolButton" name="toolButton_plier">
+          <property name="maximumSize">
+           <size>
+            <width>192</width>
+            <height>192</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: transparent;
+border: none;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>../plier_img.png</normaloff>../plier_img.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>192</width>
+            <height>192</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_Book">
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>Objednať</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_cancelOrder">
+     <widget class="QGroupBox" name="groupBox_5">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>19</y>
+        <width>621</width>
+        <height>431</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QWidget" name="verticalLayoutWidget_5">
+       <property name="geometry">
+        <rect>
+         <x>-20</x>
+         <y>0</y>
+         <width>501</width>
+         <height>431</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_5">
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QLabel" name="label_4">
+          <property name="text">
+           <string>Zoznam objednávok</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTableView" name="tableView_Orders">
+          <property name="selectionBehavior">
+           <enum>QAbstractItemView::SelectRows</enum>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="verticalLayoutWidget_6">
+       <property name="geometry">
+        <rect>
+         <x>480</x>
+         <y>0</y>
+         <width>131</width>
+         <height>431</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_6">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <item>
+         <spacer name="verticalSpacer_4">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::Fixed</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>100</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QToolButton" name="toolButton_plier2">
+          <property name="maximumSize">
+           <size>
+            <width>192</width>
+            <height>192</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: transparent;
+border: none;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>../plier_img.png</normaloff>../plier_img.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>192</width>
+            <height>192</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_GenerateInvoice">
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>Faktúra</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_CancelOrder">
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>Zrušiť objednávku</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_viewOrders">
+     <widget class="QGroupBox" name="groupBox_6">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>651</width>
+        <height>451</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Zoznam používateľov</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <widget class="QWidget" name="verticalLayoutWidget_7">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>501</width>
+         <height>431</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_7">
+        <item>
+         <widget class="QTableView" name="tableView_Users">
+          <property name="selectionBehavior">
+           <enum>QAbstractItemView::SelectItems</enum>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="verticalLayoutWidget_9">
+       <property name="geometry">
+        <rect>
+         <x>510</x>
+         <y>30</y>
+         <width>141</width>
+         <height>421</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_9">
+        <property name="spacing">
+         <number>3</number>
+        </property>
+        <item>
+         <spacer name="verticalSpacer_3">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::Fixed</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>150</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_AddUser">
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>Pridať používateľa</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_RemoveUser">
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>Zmazať používateľa</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_viewOrderStatus">
+     <widget class="QGroupBox" name="groupBox_7">
+      <property name="geometry">
+       <rect>
+        <x>9</x>
+        <y>9</y>
+        <width>681</width>
+        <height>451</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Zoznam objednávok vybraného používateľa</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <widget class="QWidget" name="horizontalLayoutWidget_2">
+       <property name="geometry">
+        <rect>
+         <x>9</x>
+         <y>19</y>
+         <width>521</width>
+         <height>431</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QTableView" name="tableView_UsersOrders"/>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="verticalLayoutWidget_10">
+       <property name="geometry">
+        <rect>
+         <x>530</x>
+         <y>20</y>
+         <width>121</width>
+         <height>431</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_10">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QLabel" name="label">
+          <property name="maximumSize">
+           <size>
+            <width>100</width>
+            <height>30</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>Vyberte klienta</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="comboBox_SelectUser">
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>30</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 51, 51);
+color: rgb(0, 0, 0);</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="verticalSpacer_5">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::Fixed</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>300</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_SaveChangesInOrders">
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>Uložiť zmeny</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_generateInvoice"/>
+    <widget class="QWidget" name="page_"/>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>9</y>
+      <width>171</width>
+      <height>471</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>300</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <widget class="QWidget" name="verticalLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>-1</x>
+       <y>9</y>
+       <width>171</width>
+       <height>470</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <spacer name="verticalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>70</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <property name="spacing">
+         <number>1</number>
+        </property>
+        <item>
+         <widget class="QToolButton" name="toolButton_profile">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>75</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 51, 51);
+border: none</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>../profile_icon.png</normaloff>../profile_icon.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>50</width>
+            <height>50</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_UserInfo">
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>75</height>
+           </size>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_EditCarRecord">
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>40</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Upraviť záznam o aute</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_BookService">
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>40</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Objednať službu</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_ViewOrders">
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>40</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Zoznam objednávok</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_EditUsers">
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>40</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Upraviť zoznam používateľov</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_EditUsersOrders">
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>40</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Zmeniť stav objednávky</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_LogOut">
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>40</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Odhlásiť sa</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>70</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>924</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionAdd_Order">
+   <property name="text">
+    <string>Add Order</string>
+   </property>
+  </action>
+  <action name="actionManage_Orders">
+   <property name="text">
+    <string>Manage Orders</string>
+   </property>
+  </action>
+  <action name="actionOrder_History">
+   <property name="text">
+    <string>Order History</string>
+   </property>
+  </action>
+  <action name="actionAdd_Client">
+   <property name="text">
+    <string>Add Client</string>
+   </property>
+  </action>
+  <action name="actionManage_Clients">
+   <property name="text">
+    <string>Manage Clients</string>
+   </property>
+  </action>
+  <action name="actionAdd_Service">
+   <property name="text">
+    <string>Add Service</string>
+   </property>
+  </action>
+  <action name="actionManage_Services">
+   <property name="text">
+    <string>Manage Services</string>
+   </property>
+  </action>
+  <action name="actionAdd_Employee">
+   <property name="text">
+    <string>Add Employee</string>
+   </property>
+  </action>
+  <action name="actionManage_Employees">
+   <property name="text">
+    <string>Manage Employees</string>
+   </property>
+  </action>
+  <action name="actionGenerate_Invoices">
+   <property name="text">
+    <string>Generate Invoices</string>
+   </property>
+  </action>
+  <action name="actionInvoice_History">
+   <property name="text">
+    <string>Invoice History</string>
+   </property>
+  </action>
+  <action name="actionPersonal_settings">
+   <property name="text">
+    <string>Personal settings</string>
+   </property>
+  </action>
+  <action name="actionSystem_settings">
+   <property name="text">
+    <string>System settings</string>
+   </property>
+  </action>
+  <action name="actionAbout_the_App">
+   <property name="text">
+    <string>About the App</string>
+   </property>
+  </action>
+  <action name="actionUser_support">
+   <property name="text">
+    <string>User Support</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="Autoservis.qrc"/>
+ </resources>
+ <connections/>
+</ui>
