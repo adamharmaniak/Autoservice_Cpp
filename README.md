@@ -1,7 +1,13 @@
 # Autoservice_C++
 This application ensures efficient management of car service orders, user authentication, and detailed tracking of services and users. You can check its *features* in the **Features** file.
 
-# Application Preview
+## How to get the application up and running
+1. Download the files from the repository.
+2. Create a new "build" using CMake (but you need to specify the correct path and version of your Qt in the "CMakeLists" file first).
+3. In Visual Studio Community you need to set "ImageViewer" as Startup project.
+4. Now you can run the application.
+
+## Application Preview
 
 <p float="left">
   <img src="https://github.com/user-attachments/assets/7318bf03-6df2-49a7-9cdc-32ce223859b5" width="45%" />
